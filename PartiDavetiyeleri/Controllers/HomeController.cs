@@ -15,5 +15,10 @@ namespace PartiDavetiyeleri.Controllers
         {
             return View();
         }
+
+        public IActionResult RsvpForm()
+        {
+            return View();
+        }
     }
 }
